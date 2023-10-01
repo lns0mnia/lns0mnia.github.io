@@ -1,0 +1,168 @@
+
+
+span.price{
+	color:red;
+	text-decoration: line-through;
+	font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.saleprice{
+	
+	text-decoration:underline;
+	color: RoyalBlue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: LightGray;
+    color: DarkSlateGray;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: RoyalBlue;
+    color: White;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: White;
+    font-weight: bold;
+}
+
+
+#products {
+    padding: 20px;
+}
+
+#saleproducts {
+    background-color: White;
+    border: 1px solid LightGray;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: none; 
+    /*width: calc(33.33% - 20px); */
+    clear: none; 
+	position:static;
+}
+
+#saleproducts img {
+    max-width: 100%;
+}
+
+#saleproducts h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#saleproducts p {
+    margin-top: 10px;
+}
+
+.price {
+    color: RoyalBlue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#saleproducts button {
+    background-color: RoyalBlue;
+    color: White;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+#about, #contact, #news, #readypc ,#choose, #registr {
+    background-color: White;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+div.about li, ol{
+	color: DarkSlateGray;
+    font-family: Arial, sans-serif;
+	padding:4px;
+
+}
+
+footer {
+    background-color: DimGray;
+    color: White;
+    text-align: center;
+    padding: 10px;
+}
+
+div.about table, th, td {
+  border:1px solid black;
+}
+
+
+.carousel-inner img {
+  width: 10%;
+  height: auto;
+}
+
+input[type="radio"] {
+  margin-right: 5px; 
+}
+
+input[type="text"],
+textarea {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block; 
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.forms {
+  text-align: left;
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+
+#forma {
+  border: 2px solid #000000;
+  margin: 10px;
+  padding: 20px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
