@@ -1,0 +1,10 @@
+#duration, #start {
+    font-size: 18px;
+    margin: 10px;
+}
+
+#timer {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
