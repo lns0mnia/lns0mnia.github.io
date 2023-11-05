@@ -1,0 +1,38 @@
+#game-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.component, .category {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin: 10px;
+    user-select: none;
+}
+
+.component, .category {
+    cursor: pointer;
+}
+
+#category-cpu { 
+background-image: url('cpu3.jpg');
+background-size: cover; 
+}
+
+#category-ram { 
+background-image: url('ram.jfif');
+background-size: cover; 
+}
+#category-hdd { 
+background-image: url('hdd.jpg');
+background-size: cover; 
+}
+#category-keyboard { 
+background-image: url('keyb.png');
+background-size: cover; 
+}

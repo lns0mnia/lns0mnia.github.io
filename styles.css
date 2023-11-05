@@ -246,3 +246,12 @@ h1 {
       display: none;
       padding: 10px;
     }
+    
+    .tablink{
+      background-color: RoyalBlue;
+    color: White;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    }

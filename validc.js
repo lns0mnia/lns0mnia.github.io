@@ -65,3 +65,36 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+
+
+const form = document.getElementById('registration-form');
+    const successSound = document.getElementById('success-sound');
+
+    form.addEventListener('submit', function (e) {
+        
+        e.preventDefault(); // Prevent the form from actually submitting
+
+        const firstName = document.getElementById('fname').value;
+        const lastName = document.getElementById('lname').value;
+        // Play the success sound
+        
+        // Display the welcome message
+        alert(`Welcome, ${firstName} ${lastName}! You have successfully registered!`);
+
+        successSound.play();
+    });
+
+
+
+  const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+    const notificationSound = document.getElementById('notification-sound');
+  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+  toastTrigger.addEventListener('click', () => {
+    toastBootstrap.show()
+    notificationSound.play();
+  })
+}
